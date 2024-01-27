@@ -1,0 +1,127 @@
+@media (max-width:768px){
+    .container{
+        width: 100%;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    #logo{
+        margin: 15px 16px;
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .menu ul li a{
+        line-height: 50px;
+        margin-left: 16px;
+    }
+    #banner::before {
+        height: 700px;
+    }
+    #banner{
+        height: 700px;
+    }
+    #banner p{
+        line-height: 30px;
+        padding: 11px;
+    }
+    /* about */
+    .about-content{
+        flex-direction: column;
+    }
+    .resto-about-img{
+        width: 100%;
+    }
+    .resto-about-img img{
+        margin-left: 20px;
+    }
+    .about-data{
+        width: 100%;
+    }
+    /* fixed image */
+    #fixed-image p{
+        padding: 25px 0 0 0 ;
+    }
+    /* menu section */
+    .menulist{
+        width: 88%;
+    }
+    .menu-gallery{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .gallery-box{
+        width: 93%;
+        margin-bottom: 15px;
+    }
+    /* gallery images */
+    .gallery-images{
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery-images img{
+        width: 90%;
+    }
+    /* detail-content */
+    .detail-content{
+        flex-direction: column;
+    }
+    .detail-box{
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    /* footer */
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-top, .footer-top::before{
+        height: 100%;
+    }
+    .footer-columns{
+        width: 80%;
+        padding: 15px;
+    }
+    .footer-bottom p{
+        padding: 10px;
+    }
+}
+@media (min-width:769px) and (max-width:1200px){
+    .container{
+        width: 100%;
+    }
+    #logo {
+        margin: 15px 8px;
+      }
+    .menu ul{
+        margin-right: 20px;
+    }
+    .menulist{
+        width: 474px;
+    }
+    .gallery-box img{
+        height: 222px;
+    }
+    .detail-box{
+        padding: 15px;
+    }
+    .footer-content{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .footer-columns{
+        width: 45%;
+        padding: 10px;
+    }
+    .footer-top::before{
+        height: 100%;
+    }
+    .footer-top{
+        height: 100%;
+    }
+    .footer-bottom p{
+        padding: 24px 0;
+    }
+}
